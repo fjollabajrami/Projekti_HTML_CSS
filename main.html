@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">;
+</head>
+<body>
+    
+    <section class="header">
+       <nav>
+        <a href="main.html"><img src="./eduford_img/auto_froni_logo.jpg"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+     <ul>
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="#">Për ne</a></li>
+        <li><a href="#">Veturat</a></li>
+        <li><a href="#">Porosit </a></li>
+        <li><a href="#">Kontakt</a></li>
+     </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+       </nav>
+       <div class="text-box">
+        <h1> Blini rehatinë! </h1>
+        <!-- <p> Blerja e veturës tek ne do jetë vlerë e shtuar për familjet tuaja!</p> -->
+ <a href="https://www.facebook.com/swissautofroni/" target="_blank" class="hero-btn">Na vizitoni këtu</a>
+    </div>
+        </section>
+<!-- Course  -->
+<section class="course">
+<h1>Çfarë në ofrojmë </h1>
+
+<div class="row">
+    <div class="course-col">
+        <h3> Intermediate </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odit, corrupti dolorum tempora adipisci ut labore soluta fugit temporibus eligendi provident asperiores modi maiores magni quae in neque voluptate consequatur!</p>
+
+</div>
+<div class="course-col">
+    <h3> Veturat më të reja </h3>
+    <div class="course-col2">
+   <div class="car1">
+     <a href="#"><img src="./eduford_img/vetura1.jpg"></a>
+    <h6>VW GOLF 7 HIGHLINE 2.0 TDI DSG</h6>
+
+</div>
+<div class="car2">
+    
+    <a href="#"><img src="./eduford_img/vetura1.jpg"></a>
+    <h6>VW GOLF 7 HIGHLINE 2.0 TDI DSG</h6>
+</div>
+   <div class="car3">
+    <a href="#"><img src="./eduford_img/vetura1.jpg"></a>
+    <h6>VW GOLF 7 HIGHLINE 2.0 TDI DSG</h6>
+   </div>
+   <a href="#"><img src="./eduford_img/vetura1.jpg"></a>
+   <h6>VW GOLF 7 HIGHLINE 2.0 TDI DSG</h6>
+    </div>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odit, corrupti dolorum tempora adipisci ut labore soluta fugit temporibus eligendi provident asperiores modi maiores magni quae in neque voluptate consequatur!</p> -->
+
+</div>
+<div class="course-col">
+    <h3> Informacione </h3>
+  
+
+</div>
+
+</section>
+
+
+ <!-- Java script for toggle meny -->
+        <script>
+            var navLinks=document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMeny(){
+                navLinks.style.right="-200px";
+                
+            }
+        </script>
+</body>
+</html>
