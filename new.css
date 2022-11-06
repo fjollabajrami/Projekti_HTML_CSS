@@ -153,11 +153,11 @@ section.header #nav-links{
                     padding:20px;
                 }
                 section#intro .container .content h3 {
-                    color:white;
+                    color:black;
                     padding:10px;
                 }
                 section#intro .container .content p {
-                    color:white;
+                    color:black;
                     text-align: center;
                 }
                 
@@ -230,13 +230,14 @@ section.header #nav-links{
                     section#welcome .cards{
                             width:100%;
                             height:auto;
-                            margin-top:30px;
+                            /* margin-top:30px; */
                             margin:0 auto;
                             position:relative;
                             display:grid;
                             grid-template-columns: repeat(3,1fr);
                             align-content:space-between;
-                            gap:30px;
+                            /* 
+                             */
                             
                             }
             
@@ -290,7 +291,7 @@ section#welcome .container .cards .card2 .material-symbols-rounded{
    padding:center;
  justify-content: space-between;
  margin:0 auto;
- gap:10px;
+ /* gap:10px; */
 }
 section#welcome .container .cards .card2{
     box-sizing: border-box;
@@ -305,7 +306,7 @@ section#welcome .container .cards .card2{
      padding:center;
    justify-content: space-between;
    margin:0 auto;
-   gap:20px;
+   /* gap:20px; */
   }
   section#welcome .container .cards .card3{
     box-sizing: border-box;
@@ -320,7 +321,7 @@ section#welcome .container .cards .card2{
      padding:center;
    justify-content: space-between;
    margin:0 auto;
-   gap:20px;
+   /* gap:20px; */
   }
 
 
@@ -837,12 +838,16 @@ width:fit-content;
 
                 /*   WELCOME*/
                 section#welcome{
-                    margin-top:150px;
+                    /* margin-top:150px; */
                     height:auto;
                 }
                 section#welcome .container .welcome_wrapper{
                     margin:0 auto;
+                    top:0;
                     
+                }
+                section#welcome .container {
+                    height:auto;
                 }
                 section#welcome .container .cards{
                     height:auto;
@@ -890,4 +895,10 @@ width:fit-content;
                 border-bottom:3px solid black;
         }
 
+        .footer-basic {
+        
+
+            flex-direction:column;
+            height:auto;
         }
+    }
